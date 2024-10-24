@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genie Search Engine</title>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTllSox10xC5djQIGeKxq-0m1aYva-qHhXZA&s" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4A90E2;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .search-container {
+            margin: 40px auto;
+            max-width: 600px;
+            text-align: center;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 15px;
+            font-size: 1.2em;
+            border: 2px solid #4A90E2;
+            border-radius: 25px;
+            outline: none;
+        }
+        input[type="text"]:focus {
+            border-color: #007BFF;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 1.2em;
+            background-color: #4A90E2;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Genie Search Engine</h1>
+    </header>
+    <div class="search-container">
+        <form id="searchForm" action="https://duckduckgo.com/?q=" method="get" target="_blank">
+            <input type="text" name="q" placeholder="Genie-Wish For a Search" required />
+            <button type="submit">Search</button>
+        </form>
+    </div>
+</body>
+</html>
